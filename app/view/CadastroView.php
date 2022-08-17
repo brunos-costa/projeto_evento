@@ -43,7 +43,7 @@ session_start();
         <?php
             // isset() verifica se alguma variável existe
             if(isset($_SESSION["mensagem"])){
-                if($_SESSION["mensagem"]["status"]){
+                if($_SESSION["mensagem"]["status"]){ 
                     echo"
                         <div class='alert alert-success alert-dismissible fade show'> 
                         
